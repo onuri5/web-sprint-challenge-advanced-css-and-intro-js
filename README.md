@@ -23,10 +23,25 @@ Commit your code regularly and meaningfully.
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe acessibility on the web to someone new to programming?
+Accessibility on the web means making your site usable and easy to navigate, for all people no matter their disability.
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+First, when it comes to images you make sure that you always have an alt tag describing the image. Second, you can ensure that you are always using semantic html whenever possible. Third, you can ensure that the text on your website is easily adjusted by the user, by not using hard pixels when making your website.
+
 3. How would you explain the concept of a variable to someone new to programming?
+A variable is like x in a math equation. A variable much like x holds anything you want it to.
+
 4. What is the purpose of using functions in code?
+So that you don't have to write the process over and over again, you can just call on your function to accomplish what you need it to.
+
 5. How do you access a key inside of an object inside of an array?
+const = arr[
+    {name: :Tom}
+    {height: 6}
+]
+
+Using the example above, we can extract one key like this: return Object.keys(arr[0]); This will return the key ['name']
+however if wanted to extract all of the keys we would simply use this: Object.keys(arr); This will return all of the keys in the array.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
