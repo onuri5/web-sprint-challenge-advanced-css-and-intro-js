@@ -207,12 +207,7 @@ const artists = [
 Practice accessing data above by console.log-ing following items:
 (no functions needed) */
 
-const arr = [
-  {name: "tom"},
-  {height: 5}
-]
 
-console.log(Object.keys(arr[0]))
 
 //(1) Name of the first artist (0th index) in the array
 
